@@ -31,7 +31,7 @@ Need a different agent (intake, estimator, after-hours, bilingual front desk)? S
 
 ## Price
 
-$49 USD. Pay the Stripe link on the listing, then open a GitHub issue titled `CLAIM: Front Desk Receptionist Agent Pack` with the receipt last-4. If checkout is down, star + watch and open the same CLAIM issue.
+$49 USD. Pay https://buy.stripe.com/3cIaEYcS49358JIh2BcIE0a then open a GitHub issue titled `CLAIM: Front Desk Receptionist Agent Pack` with the receipt last-4. If checkout is down, star + watch and open the same CLAIM issue.
 
 ## License
 
