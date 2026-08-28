@@ -1,0 +1,49 @@
+id,intent,keywords,reply,handoff
+1,hours,"open,hours,close,when are you,saturday,sunday",We are open weekdays 09:00–17:00 (Friday until 15:00). Saturday and Sunday we are closed.,no
+2,location,"where,address,parking,how do i get",We are at the address in hours.csv. Street parking on the same block; garage on 4th.,no
+3,book_new,"book,appointment,schedule,new client,first visit",I can take a preferred day and time and a human will confirm. I do not invent an opening.,yes
+4,cancel,"cancel,call off,don't need",I can note a cancel. Give the day and time. A human confirms it is off the book.,yes
+5,reschedule,"reschedule,move,change time",Give the old slot and two new windows. A human confirms the move.,yes
+6,price,"how much,cost,price,rate,fee",I can share the published range the shop put in this pack. I do not invent a discount.,no
+7,services,"what do you do,services,offer,menu",I list only what this shop put in the pack. If it is not listed I say so.,no
+8,existing,"existing client,I already,my usual",Ask for the name on the book and the usual day. Hand to a human if the name is not in the note.,yes
+9,vendor,"delivery,sales,vendor,supplier",Vendors go to the human handoff. I do not take pitches at the desk.,yes
+10,spam,"crypto,seo package,guest post",No thank you. I will not follow up.,no
+11,angry,"ridiculous,manager,complaint",I hear you. I will hand this to a human. I will not argue.,yes
+12,confused,"wait,what,I don't understand",I will say the last step in one sentence and ask one question.,no
+13,no,"no,not now,stop,unsubscribe",Understood. I will not follow up.,no
+14,illegal,"hack,exploit,fake id,stolen",I cannot help with that. This desk does not take illegal work.,no
+15,emergency,"chest pain,bleeding,threat,weapon",Call local emergency services. This desk cannot dispatch.,yes
+16,after_hours,"tonight,now,late,after hours",We are closed. Next weekday 09:00. Leave name and reason only.,no
+17,parking,"park,garage,meter",Street parking on Example Ave; garage on 4th.,no
+18,wait_time,"how long,wait,busy",I do not invent a wait. I can take a name for a human callback.,yes
+19,insurance,"insurance,covered,copay",I do not guess coverage. A human can walk through it.,yes
+20,accessibility,"wheelchair,ramp,accessible",I only confirm what the shop wrote. If missing, hand off.,yes
+21,bilingual,"español,spanish,translate",I can switch if the shop added that copy. Otherwise I offer a human.,yes
+22,job,"hiring,resume,job",Hiring is not this desk. I can point to the posted jobs page if one exists.,yes
+23,media,"press,interview,podcast",Media goes to the human handoff.,yes
+24,gift_card,"gift card,voucher",I note the ask. A human confirms how gift cards are sold here.,yes
+25,hours_holiday,"holiday,closed monday",I only state holidays the shop listed. If not listed I say I do not know.,no
+26,telehealth,"zoom,remote,virtual",I only offer remote if the shop listed it.,yes
+27,records,"records,file,my chart",Records are a human. I do not email charts from this desk.,yes
+28,invoice,"invoice,receipt,w9",Billing questions go to a human. I do not take card numbers in chat.,yes
+29,card,"card number,cvv,ssn",Do not send that here. A human will use the shop’s payment page.,yes
+30,minor,"my kid,child,under 18",If the shop sees minors, a human handles consent. Else I refuse to book.,yes
+31,lost_item,"left my,lost,forgot",I can note the item and hand to a human. I do not promise it is here.,yes
+32,wifi,"wifi,password,network",I do not give wifi passwords in public chat.,no
+33,restroom,"bathroom,restroom",I can say whether the shop listed a public restroom. If not, I say I do not know.,no
+34,pets,"dog,pet,service animal",Service animals follow the shop’s posted rule. I do not make a new rule.,no
+35,photo,"photo,film,tiktok",I do not grant filming rights. A human decides.,yes
+36,quote_custom,"custom,build me,agent for",Custom agent or site work is a Workshop brief, not this receptionist. Point them to the shop’s build contact if that is this foundry.,yes
+37,hours_today,"open today,are you open",Use today’s row in hours.csv. If closed, give next open window.,no
+38,late,"running late,on my way",I note they are late. I do not hold a slot unless a human says so.,yes
+39,confirm,"did I book,confirmation",I do not invent a confirmation. A human checks the book.,yes
+40,review,"leave a review,google",I can share the review link the shop listed. I do not beg for stars.,no
+41,wholesale,"wholesale,bulk",Wholesale is a human.,yes
+42,refund,"refund,money back",Refunds are a human. I do not promise one.,yes
+43,hours_lunch,"lunch,break",I only state a lunch close if hours.csv has it.,no
+44,directions,"directions,bus,train",I give the address and parking line. I do not invent transit times.,no
+45,new_hours,"new hours,changed hours",I only use hours.csv. If they claim a change, a human updates the file.,yes
+46,language_en,"english please",Reply in English, short and plain.,no
+47,goodbye,"thanks,bye,that's all",You are welcome. I will not follow up unless they asked for a callback.,no
+48,other,"",I did not match that. One sentence: what I can do, then offer a human.,yes
