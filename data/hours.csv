@@ -1,0 +1,15 @@
+key,value
+shop_name,Example Front Desk
+timezone,America/Chicago
+open_mon,09:00-17:00
+open_tue,09:00-17:00
+open_wed,09:00-17:00
+open_thu,09:00-17:00
+open_fri,09:00-15:00
+open_sat,closed
+open_sun,closed
+address,123 Example Ave, Suite 2
+parking,Street parking on Example Ave; garage on 4th.
+human_handoff,Ask for the front desk lead. Do not put a personal phone in public copies.
+after_hours,We reopen the next weekday at 09:00. Leave your name and reason; a human calls back.
+emergency,If this is a medical or safety emergency, call local emergency services. This desk cannot dispatch.
